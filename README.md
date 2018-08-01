@@ -10,7 +10,7 @@ bash train.sh
 ```
 
 #### REST服务
-app.py 是语言模型REST服务<br>
+app.py 是语言模型REST服务,采用flask<br>
 #### 调用示例
 http://192.168.189.130:5000/score?text=贷款<br>
 http://192.168.189.130:5000/score?text=货款<br>
