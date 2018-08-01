@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libkenlm_filter.a  CMakeFiles/kenlm_filter.dir/arpa_io.cc.o CMakeFiles/kenlm_filter.dir/phrase.cc.o CMakeFiles/kenlm_filter.dir/vocab.cc.o
+/usr/bin/ranlib ../../lib/libkenlm_filter.a

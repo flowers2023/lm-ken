@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//util/sorted_uniform.hh
+algorithm
+-
+cstddef
+-
+cassert
+-
+stdint.h
+-
+
+/home/kane/lm/kenlm/kenlm/util/sorted_uniform_test.cc
+util/sorted_uniform.hh
+/home/kane/lm/kenlm/kenlm/util/util/sorted_uniform.hh
+boost/random/mersenne_twister.hpp
+-
+boost/random/uniform_int.hpp
+-
+boost/random/variate_generator.hpp
+-
+boost/scoped_array.hpp
+-
+boost/unordered_map.hpp
+-
+boost/test/unit_test.hpp
+-
+algorithm
+-
+limits
+-
+vector
+-
+

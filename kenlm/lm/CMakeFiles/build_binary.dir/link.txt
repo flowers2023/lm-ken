@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/build_binary.dir/build_binary_main.cc.o  -o ../bin/build_binary ../lib/libkenlm.a ../lib/libkenlm_util.a -lboost_program_options -lboost_system -lboost_thread -lboost_unit_test_framework -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -lpthread -lz -lbz2 -llzma -lrt -lpthread 

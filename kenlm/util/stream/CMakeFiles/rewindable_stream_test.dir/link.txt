@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/rewindable_stream_test.dir/rewindable_stream_test.cc.o  -o ../../tests/rewindable_stream_test ../../lib/libkenlm_util.a -lboost_program_options -lboost_system -lboost_thread -lboost_unit_test_framework -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -lpthread -lz -lbz2 -llzma -lpthread -lrt 

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//util/bit_packing.hh
+cassert
+-
+architecture/byte_order.h
+-
+endian.h
+-
+arpa/nameser_compat.h
+-
+stdint.h
+-
+cstring
+-
+
+/home/kane/lm/kenlm/kenlm/util/bit_packing_test.cc
+util/bit_packing.hh
+/home/kane/lm/kenlm/kenlm/util/util/bit_packing.hh
+boost/test/unit_test.hpp
+-
+cstring
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/model_buffer_test.dir/model_buffer_test.cc.o  -o ../../tests/model_buffer_test ../../lib/libkenlm.a ../../lib/libkenlm_util.a -lz -lbz2 -llzma -lrt -lboost_program_options -lboost_system -lboost_thread -lboost_unit_test_framework -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -lpthread 

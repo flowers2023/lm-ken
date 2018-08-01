@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//util/joint_sort.hh
+util/proxy_iterator.hh
+../util/util/proxy_iterator.hh
+algorithm
+-
+functional
+-
+
+..//util/proxy_iterator.hh
+cstddef
+-
+iterator
+-
+
+/home/kane/lm/kenlm/kenlm/util/joint_sort_test.cc
+util/joint_sort.hh
+/home/kane/lm/kenlm/kenlm/util/util/joint_sort.hh
+boost/test/unit_test.hpp
+-
+

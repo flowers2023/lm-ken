@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//util/multi_intersection.hh
+boost/optional.hpp
+-
+boost/range/iterator_range.hpp
+-
+algorithm
+-
+functional
+-
+vector
+-
+
+/home/kane/lm/kenlm/kenlm/util/multi_intersection_test.cc
+util/multi_intersection.hh
+/home/kane/lm/kenlm/kenlm/util/util/multi_intersection.hh
+boost/test/unit_test.hpp
+-
+
